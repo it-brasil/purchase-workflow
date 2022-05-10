@@ -102,12 +102,7 @@
                     </div>
                     <h1>
                         <field name="is_editable" attrs="{'invisible': True}" />
-                        <field name="is_name_editable" invisible="1" />
-                        <field
-                            name="name"
-                            class="oe_inline"
-                            attrs="{'readonly': [('is_name_editable','=', False)]}"
-                        />
+                        <field name="name" readonly="1"/>
                     </h1>
                     <group>
                         <group>

@@ -53,15 +53,8 @@ class PurchaseRequest(models.Model):
             else:
                 rec.is_editable = True
 
-    name = fields.Char(
-        string="Request Reference",
-        required=True,
-        default=lambda self: _("New"),
-        tracking=True,
-    )
-    is_name_editable = fields.Boolean(
-        default=lambda self: self.env.user.has_group("base.group_no_one"),
-    )
+    name = fields.Char('Order Reference', required=True,
+                       index=True, copy=False, default='New')
     origin = fields.Char(string="Source Document")
     date_start = fields.Date(
         string="Creation date",

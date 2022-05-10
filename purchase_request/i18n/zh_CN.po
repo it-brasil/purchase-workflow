@@ -526,10 +526,6 @@ msgstr "如果选中，消息会附带交货错误信息。"
 msgid "Is Follower"
 msgstr "是关注者"
 
-#. module: purchase_request
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request__is_name_editable
-msgid "Is Name Editable"
-msgstr ""
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__is_editable
