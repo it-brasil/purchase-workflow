@@ -4,8 +4,8 @@
 {
     "name": "Purchase Order Archive",
     "summary": "Archive Purchase Orders",
-    "author": "Onestein, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "category": "Purchases",
     "version": "14.0.1.0.0",
     "license": "AGPL-3",

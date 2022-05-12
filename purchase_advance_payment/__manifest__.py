@@ -4,8 +4,8 @@
 {
     "name": "Purchase Advance Payment",
     "version": "14.0.1.0.1",
-    "author": "Forgeflow, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "category": "Purchase",
     "license": "AGPL-3",
     "summary": "Allow to add advance payments on purchase orders",

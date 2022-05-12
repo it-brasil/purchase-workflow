@@ -4,11 +4,11 @@
 {
     "name": "Purchase Order Type",
     "version": "14.0.1.0.2",
-    "author": "Camptocamp, Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "license": "AGPL-3",
     "category": "Purchase Management",
     "depends": ["purchase"],
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "data": [
         "security/ir.model.access.csv",
         "security/security.xml",

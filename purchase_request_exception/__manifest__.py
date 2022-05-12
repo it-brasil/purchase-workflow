@@ -6,8 +6,8 @@
     "summary": "Custom exceptions on purchase request",
     "version": "14.0.1.0.0",
     "category": "Generic Modules/Purchase",
-    "author": "Ecosoft, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase_request", "base_exception"],
     "license": "AGPL-3",
     "data": [

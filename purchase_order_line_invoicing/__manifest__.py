@@ -7,8 +7,8 @@
         Allows to invoice lines of multiple purchase orders""",
     "version": "14.0.1.0.0",
     "license": "AGPL-3",
-    "author": "ACSONE SA/NV,Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase"],
     "data": [
         "security/purchase_order_line_invoice_wizard.xml",

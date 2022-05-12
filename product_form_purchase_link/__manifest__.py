@@ -9,8 +9,8 @@
     "license": "AGPL-3",
     "development_status": "Beta",
     "maintainers": ["rousseldenis"],
-    "author": "ACSONE SA/NV,Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase"],
     "data": [
         "views/purchase_order_line.xml",

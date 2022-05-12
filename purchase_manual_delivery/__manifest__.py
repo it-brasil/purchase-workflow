@@ -10,8 +10,8 @@
     """,
     "version": "14.0.1.0.0",
     "license": "AGPL-3",
-    "author": "ForgeFlow S.L.," "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase_stock"],
     "data": [
         "security/ir.model.access.csv",

@@ -6,8 +6,8 @@
 {
     "name": "Quick Purchase order",
     "version": "14.0.1.0.1",
-    "author": "Akretion, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "license": "AGPL-3",
     "category": "Purchase",
     "depends": ["base_product_mass_addition", "purchase"],

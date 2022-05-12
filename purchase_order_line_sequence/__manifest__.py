@@ -9,11 +9,8 @@
     "Invoice lines and Stock Moves",
     "version": "14.0.1.0.0",
     "category": "Purchase Management",
-    "author": "Camptocamp, "
-    "Eficent, "
-    "Serpent CS, "
-    "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": [
         "purchase_stock",
         "stock_picking_line_sequence",

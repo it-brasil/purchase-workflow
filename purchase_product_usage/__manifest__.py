@@ -6,8 +6,8 @@
     "name": "Purchase Product Usage",
     "version": "14.0.1.1.0",
     "category": "Purchase Management",
-    "author": "ForgeFlow, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "license": "AGPL-3",
     "depends": ["purchase"],
     "data": [

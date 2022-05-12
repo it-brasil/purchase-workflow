@@ -119,7 +119,7 @@ class TestPurchaseRequestToRfq(common.TransactionCase):
 
     def test_bug_is_editable_multiple_lines(self):
         # Check that reading multiple lines is still possible
-        # https://github.com/OCA/purchase-workflow/pull/291
+        # https://github.com/it-brasil/purchase-workflow/pull/291
         vals = {
             "picking_type_id": self.env.ref("stock.picking_type_in").id,
             "requested_by": SUPERUSER_ID,

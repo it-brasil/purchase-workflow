@@ -4,10 +4,10 @@
 {
     "name": "Purchase Report Menu Move",
     "version": "14.0.1.0.0",
-    "author": "Ecosoft,Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "category": "Purchase",
     "license": "AGPL-3",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase"],
     "data": ["report/purchase_report_views.xml"],
     "auto_install": False,

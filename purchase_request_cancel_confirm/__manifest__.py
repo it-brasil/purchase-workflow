@@ -4,10 +4,10 @@
 {
     "name": "Purchase Request Cancel Confirm",
     "version": "14.0.1.0.0",
-    "author": "Ecosoft,Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "category": "Usability",
     "license": "AGPL-3",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["base_cancel_confirm", "purchase_request"],
     "auto_install": False,
     "installable": True,

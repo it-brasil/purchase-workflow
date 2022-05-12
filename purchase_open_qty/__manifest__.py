@@ -7,8 +7,8 @@
     "summary": "Allows to identify the purchase orders that have quantities "
     "pending to invoice or to receive.",
     "version": "14.0.1.0.1",
-    "author": "ForgeFlow, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "category": "Purchases",
     "depends": ["purchase_stock"],
     "data": ["views/purchase_view.xml"],

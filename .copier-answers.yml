@@ -16,6 +16,6 @@ rebel_module_groups:
 repo_description: 'TODO: add repo description.'
 repo_name: purchase-workflow
 repo_slug: purchase-workflow
-repo_website: https://github.com/OCA/purchase-workflow
+repo_website: https://github.com/it-brasil/purchase-workflow
 travis_apt_packages: []
 travis_apt_sources: []

@@ -7,8 +7,8 @@
     "summary": "Custom exceptions on purchase order",
     "version": "14.0.1.0.0",
     "category": "Generic Modules/Purchase",
-    "author": "Akretion, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase", "base_exception"],
     "license": "AGPL-3",
     "data": [

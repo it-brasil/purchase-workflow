@@ -5,9 +5,9 @@
     "name": "Purchase Invoice Plan",
     "summary": "Add to purchases order, ability to manage future invoice plan",
     "version": "14.0.1.2.0",
-    "author": "Ecosoft,Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "license": "AGPL-3",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "category": "Purchase",
     "depends": ["purchase_open_qty", "purchase_stock"],
     "data": [

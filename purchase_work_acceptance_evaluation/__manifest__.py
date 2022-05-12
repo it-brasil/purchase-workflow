@@ -5,9 +5,9 @@
     "name": "Purchase Work Acceptance Evaluation",
     "version": "14.0.2.0.0",
     "category": "Purchase Management",
-    "author": "Ecosoft, Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "license": "AGPL-3",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase_work_acceptance"],
     "data": [
         "security/ir.model.access.csv",

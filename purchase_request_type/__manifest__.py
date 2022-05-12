@@ -4,11 +4,11 @@
 {
     "name": "Purchase Request Type",
     "version": "14.0.1.0.1",
-    "author": "ProThai, Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "license": "AGPL-3",
     "category": "Purchase Management",
     "depends": ["purchase_request"],
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "data": [
         "security/ir.model.access.csv",
         "security/security.xml",

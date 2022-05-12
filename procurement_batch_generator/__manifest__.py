@@ -8,9 +8,9 @@
     "category": "Warehouse Management",
     "license": "AGPL-3",
     "summary": "Wizard to replenish from product tree view",
-    "author": "Akretion,Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "maintainers": ["alexis-via"],
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["stock"],
     "data": [
         "security/ir.model.access.csv",

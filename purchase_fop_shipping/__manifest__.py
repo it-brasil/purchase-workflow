@@ -5,8 +5,8 @@
 {
     "name": "Purchase Free-Of-Payment shipping",
     "version": "14.0.1.1.0",
-    "author": "Akretion,Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "maintainer": "Akretion",
     "license": "AGPL-3",
     "category": "Purchase",

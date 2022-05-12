@@ -19,7 +19,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * Migration to 11.0.
-  (`#461 <https://github.com/OCA/purchase-workflow/issues/461>`_)
+  (`#461 <https://github.com/it-brasil/purchase-workflow/issues/461>`_)
 
 * When the scheduled date is changed in the PO after confirmation the
   pickings are reorganized so as to force that every picking will have only

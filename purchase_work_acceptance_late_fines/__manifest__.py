@@ -5,9 +5,9 @@
     "name": "Purchase Work Acceptance - Late Delivery Fines",
     "version": "14.0.1.0.0",
     "category": "Purchase Management",
-    "author": "Ecosoft, Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "license": "AGPL-3",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase_work_acceptance"],
     "data": [
         "security/security.xml",

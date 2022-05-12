@@ -4,8 +4,8 @@
     "name": "Purchase Order Triple Discount",
     "version": "14.0.1.0.1",
     "category": "Purchase Management",
-    "author": "Tecnativa," "GRAP," "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "license": "AGPL-3",
     "summary": "Manage triple discount on purchase order lines",
     "depends": [

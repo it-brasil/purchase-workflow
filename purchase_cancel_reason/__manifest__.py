@@ -4,11 +4,11 @@
 {
     "name": "Purchase Cancel Reason",
     "version": "14.0.1.0.0",
-    "author": "Camptocamp, Okia SPRL, Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "category": "Purchase",
     "license": "AGPL-3",
     "complexity": "normal",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase"],
     "data": [
         "wizard/purchase_cancel_reason_view.xml",

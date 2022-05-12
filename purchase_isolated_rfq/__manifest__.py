@@ -3,9 +3,9 @@
 {
     "name": "Purchase Isolated RFQ",
     "version": "14.0.1.0.1",
-    "author": "Ecosoft, Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "category": "Purchases",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase"],
     "license": "AGPL-3",
     "data": ["data/ir_sequence_data.xml", "views/purchase_views.xml"],

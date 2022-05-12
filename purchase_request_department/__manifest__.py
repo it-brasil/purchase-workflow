@@ -3,9 +3,9 @@
 
 {
     "name": "Purchase Request Department",
-    "author": "ForgeFlow, Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "version": "14.0.1.0.0",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "category": "Purchase Management",
     "post_init_hook": "post_init_hook",
     "depends": ["hr", "purchase_request"],

@@ -4,8 +4,8 @@
     "name": "Vendor transport lead time",
     "summary": "Purchase delay based on transport and supplier delays",
     "version": "14.0.1.0.1",
-    "website": "https://github.com/OCA/purchase-workflow",
-    "author": "Camptocamp, Odoo Community Association (OCA)",
+    "website": "https://github.com/it-brasil/purchase-workflow",
+    "author": "IT Brasil",
     "license": "AGPL-3",
     "depends": ["product", "purchase"],
     "data": [

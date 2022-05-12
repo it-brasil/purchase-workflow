@@ -5,13 +5,13 @@
     "summary": "Add a an incoterm field for supplier and use it on purchase order",
     "version": "14.0.1.0.0",
     "category": "Purchase",
-    "author": "Camptocamp, Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "license": "AGPL-3",
     "depends": [
         "account",
         "purchase",
     ],
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "data": ["views/partner_view.xml"],
     "installable": True,
 }

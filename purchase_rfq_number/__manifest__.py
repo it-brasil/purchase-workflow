@@ -5,11 +5,11 @@
     "name": "Purchase For Quotation Numeration",
     "summary": "Different sequence for purchase for quotations",
     "version": "14.0.1.0.0",
-    "author": "ProThai, Odoo Community Association (OCA)",
+    "author": "IT Brasil",
     "license": "AGPL-3",
     "category": "Purchase Management",
     "depends": ["purchase"],
-    "website": "https://github.com/OCA/purchase-workflow",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "data": [
         "data/ir_sequence_data.xml",
         "reports/purchase_report_templates.xml",

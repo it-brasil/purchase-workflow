@@ -4,8 +4,8 @@
     "name": "Purchase order line price history",
     "version": "14.0.1.0.0",
     "category": "Purchase Management",
-    "author": "Tecnativa, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/purchase-workflow",
+    "author": "IT Brasil",
+    "website": "https://github.com/it-brasil/purchase-workflow",
     "license": "AGPL-3",
     "depends": ["purchase"],
     "data": [
