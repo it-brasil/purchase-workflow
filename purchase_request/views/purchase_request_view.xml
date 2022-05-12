@@ -35,13 +35,13 @@
                         states="approved"
                         string="Create RFQ"
                         type="action"
+                        class="oe_highlight"
                     />
                     <button
                         name="button_done"
                         states="approved"
                         string="Done"
                         type="object"
-                        class="oe_highlight"
                         groups="purchase_request.group_purchase_request_manager"
                     />
                     <button
