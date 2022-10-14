@@ -8,7 +8,7 @@
         and adds the ability to manually generate them as the supplier confirms
         the different purchase order lines.
     """,
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "license": "AGPL-3",
     "author": "IT Brasil",
     "website": "https://github.com/it-brasil/purchase-workflow",

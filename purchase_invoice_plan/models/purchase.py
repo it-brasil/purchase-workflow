@@ -36,6 +36,7 @@ class PurchaseOrder(models.Model):
         string="Total Amount",
     )
 
+    @api.depends("invoice_plan_ids")
     def _compute_ip_total(self):
         for rec in self:
             installments = rec.invoice_plan_ids.filtered("installment")
@@ -118,7 +119,7 @@ class PurchaseOrder(models.Model):
 
     def action_view_invoice(self, invoices=False):
         invoice_plan_id = self._context.get("invoice_plan_id")
-        if invoice_plan_id:
+        if invoice_plan_id and invoices:
             plan = self.env["purchase.invoice.plan"].browse(invoice_plan_id)
             for invoice in invoices:
                 plan._compute_new_invoice_quantity(invoice)
@@ -195,6 +196,11 @@ class PurchaseInvoicePlan(models.Model):
         string="Invoices",
         readonly=True,
     )
+    amount_invoiced = fields.Float(
+        compute="_compute_invoiced",
+        store=True,
+        readonly=False,
+    )
     to_invoice = fields.Boolean(
         string="Next Invoice",
         compute="_compute_to_invoice",
@@ -214,6 +220,12 @@ class PurchaseInvoicePlan(models.Model):
     @api.depends("percent")
     def _compute_amount(self):
         for rec in self:
+            # With invoice already created, no recompute
+            if rec.invoiced:
+                rec.amount = rec.amount_invoiced
+                rec.percent = rec.amount / rec.purchase_id.amount_untaxed * 100
+                continue
+            # For last line, amount is the left over
             if rec.last:
                 installments = rec.purchase_id.invoice_plan_ids.filtered(
                     lambda l: l.invoice_type == "installment"
@@ -252,6 +264,10 @@ class PurchaseInvoicePlan(models.Model):
                 rec.to_invoice = True
                 break
 
+    def _get_amount_invoice(self, invoices):
+        """Hook function"""
+        return sum(invoices.mapped("amount_untaxed"))
+
     @api.depends("invoice_ids.state")
     def _compute_invoiced(self):
         for rec in self:
@@ -259,6 +275,7 @@ class PurchaseInvoicePlan(models.Model):
                 lambda l: l.state in ("draft", "posted")
             )
             rec.invoiced = invoiced and True or False
+            rec.amount_invoiced = rec._get_amount_invoice(invoiced[:1])
 
     def _compute_last(self):
         for rec in self:
@@ -281,6 +298,7 @@ class PurchaseInvoicePlan(models.Model):
         move = invoice_move.with_context({"check_move_validity": False})
         for line in move.invoice_line_ids:
             self._update_new_quantity(line, percent)
+        move.line_ids.filtered("exclude_from_invoice_tab").unlink()
         move._move_autocomplete_invoice_lines_values()  # recompute dr/cr
 
     def _update_new_quantity(self, line, percent):

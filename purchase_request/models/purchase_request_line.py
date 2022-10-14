@@ -25,7 +25,9 @@ class PurchaseRequestLine(models.Model):
         comodel_name="uom.uom",
         string="UoM",
         tracking=True,
+        domain="[('category_id', '=', product_uom_category_id)]",
     )
+    product_uom_category_id = fields.Many2one(related="product_id.uom_id.category_id")
     product_qty = fields.Float(
         string="Quantity", tracking=True, digits="Product Unit of Measure"
     )
@@ -371,14 +373,8 @@ class PurchaseRequestLine(models.Model):
 
         rl_qty = 0.0
         # Recompute quantity by adding existing running procurements.
-        if new_pr_line:
-            rl_qty = po_line.product_uom_qty
-        else:
-            for prl in po_line.purchase_request_lines:
-                for alloc in prl.purchase_request_allocation_ids:
-                    rl_qty += alloc.product_uom_id._compute_quantity(
-                        alloc.requested_product_uom_qty, purchase_uom
-                    )
+        for rl in po_line.purchase_request_lines:
+            rl_qty += rl.product_uom_id._compute_quantity(rl.product_qty, purchase_uom)
         qty = max(rl_qty, supplierinfo_min_qty)
         return qty
 

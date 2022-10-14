@@ -3,15 +3,19 @@
 {
     "name": "Default purchase incoterm per partner",
     "summary": "Add a an incoterm field for supplier and use it on purchase order",
-    "version": "14.0.1.0.0",
+    "version": "14.0.3.0.0",
     "category": "Purchase",
     "author": "IT Brasil",
     "license": "AGPL-3",
+    "maintainers": ["TDu", "bealdav"],
     "depends": [
         "account",
-        "purchase",
+        "purchase_stock",
     ],
-    "website": "https://github.com/it-brasil/purchase-workflow",
-    "data": ["views/partner_view.xml"],
+    "website": "https://github.com/OCA/purchase-workflow",
+    "data": [
+        "views/partner_view.xml",
+        "views/purchase_view.xml",
+    ],
     "installable": True,
 }
