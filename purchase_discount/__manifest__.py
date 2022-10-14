@@ -4,8 +4,13 @@
 # License AGPL-3 - See http://www.gnu.org/licenses/agpl-3.0.html
 {
     "name": "Purchase order lines with discounts",
-    "author": "IT Brasil",
-    "version": "14.0.1.1.1",
+    "author": "Tiny, "
+    "Acysos S.L., "
+    "Tecnativa, "
+    "ACSONE SA/NV,"
+    "GRAP,"
+    "Odoo Community Association (OCA)",
+    "version": "14.0.1.1.2",
     "category": "Purchase Management",
     "website": "https://github.com/it-brasil/purchase-workflow",
     "depends": ["purchase_stock"],
