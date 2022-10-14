@@ -2,10 +2,10 @@
 
 {
     "name": "Purchase Product Last Price Info",
-    "version": "14.0.2.0.0",
+    "version": "14.0.2.0.1",
     "category": "Purchase Management",
     "license": "AGPL-3",
-    "author": "IT Brasil",
+    "author": "AvanzOSC, Tecnativa, Odoo Community Association (OCA)",
     "development_status": "Production/Stable",
     "maintainers": ["LoisRForgeFlow"],
     "website": "https://github.com/it-brasil/purchase-workflow",
