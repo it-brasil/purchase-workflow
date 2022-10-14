@@ -6,8 +6,8 @@
     "name": "Purchase Force Invoiced",
     "summary": "Allows to force the billing status of the purchase order to "
     '"Invoiced"',
-    "version": "14.0.1.0.0",
-    "author": "IT Brasil",
+    "version": "14.0.1.0.1",
+    "author": "Forgeflow, Odoo Community Association (OCA)",
     "category": "Purchase Management",
     "license": "AGPL-3",
     "website": "https://github.com/it-brasil/purchase-workflow",
